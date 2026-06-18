@@ -1,0 +1,148 @@
+# ============================================
+# FILE SENSITIF - JANGAN PERNAH DI-UPLOAD!
+# ============================================
+
+# Environment variables (API Key, dll)
+.env
+.env.local
+.env.*.local
+*.env
+.env.production
+.env.development
+
+# File kunci dan sertifikat
+*.key
+*.pem
+*.crt
+*.p12
+
+# ============================================
+# SISTEM OPERASI
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.tmp
+
+# Linux
+*~
+.directory
+*.swp
+*.swo
+
+# ============================================
+# EDITOR / IDE
+# ============================================
+
+# VS Code
+.vscode/
+.code-workspace
+*.code-workspace
+
+# IntelliJ / WebStorm / PhpStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================
+# DEPENDENSI (Kalau pakai Node.js)
+# ============================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# BUILD / DISTRIBUSI
+# ============================================
+
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# ============================================
+# LOG
+# ============================================
+
+*.log
+logs/
+*.log.*
+
+# ============================================
+# DATABASE
+# ============================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# LAIN-LAIN
+# ============================================
+
+# Cache
+.cache/
+*.cache
+
+# Backup
+*.bak
+*.backup
+
+# File sementara
+*.tmp
+*.temp
+
+# Coverage (testing)
+coverage/
+.nyc_output/
+
+# Upload file sementara
+uploads/
+temp/
+tmp/
+
+# ============================================
+# KONFIGURASI USER
+# ============================================
+
+# Local configuration
+*.local
+*.user
+
+# ============================================
+# REKOMENDASI TAMBAHAN UNTUK PROJECT INI
+# ============================================
+
+# API Key (aman)
+api-key.txt
+secret.txt
+creds.json
+
+# File yang berisi data pengguna
+user-data/
+*.userdata
