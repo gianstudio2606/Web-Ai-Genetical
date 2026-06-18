@@ -12,7 +12,7 @@ AI Chat dengan model **Llama 3.3 70B Abliterated** (tanpa sensor). Bisa menganal
 
 ## 🚀 Cara Pakai
 
-1. Buka URL: `https://nexus-ai.vercel.app`
+1. Buka URL: `https://genetical-ai.vercel.app`
 2. Tanyakan apa saja, atau upload file
 3. Aktifkan mode coding dengan tombol `</>` untuk minta kode
 
